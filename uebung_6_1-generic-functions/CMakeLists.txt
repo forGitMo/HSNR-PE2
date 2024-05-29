@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.8)
-project(generic)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "-Wall -Wextra")
-add_executable(generic main.cpp Generic.h)
